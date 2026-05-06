@@ -865,3 +865,8 @@ body:hover .cursor-follower { opacity: 1; }
   .about-stats { grid-template-columns: repeat(2,1fr); }
   .hero-name { font-size: 3rem; }
 }
+
+@media (hover: none) and (pointer: coarse) {
+  .cursor, .cursor-follower { display: none; }
+  body { cursor: auto; }
+}
