@@ -17,8 +17,8 @@ const CONFIG = {
   github: "https://github.com/MeetJAiswal2004",
   
   // Certificate URLs
-  cert_wipro: "https://drive.google.com/file/d/1HQ-j4F_LkYQJyfBtumMd6taEcqWtkhzt/view?usp=sharing",
-  cert_google: "https://drive.google.com/file/d/1In-uoyjNKWJmiBzMpG73pX9Ah09rKYsC/view?usp=sharing",
+  cert_wipro: "https://drive.google.com/file/d/1CZE8beekm1ZkMUgQFZqL3oftsz83PKaY/view?usp=sharing",
+  cert_google: "https://drive.google.com/file/d/1tSNlxQcTNktOqVtSNliUp9qrviBHSeFi/view?usp=sharing",
   cert_tata: "https://drive.google.com/file/d/1kHrId0OXRaw7ieS-_cX_BqwMB4D7EH7i/view?usp=sharing",
   cert_dbms: "https://drive.google.com/file/d/1LCqiC_ipQvDYgmI8fZY4SpGGvFjVk2jw/view?usp=sharing",
   cert_jobsense: "https://drive.google.com/file/d/1mWf32Z0q7KMlyffpExWdp7vY7bGw2GKQ/view?usp=sharing",
