@@ -606,7 +606,8 @@ body:hover .cursor-follower { opacity: 1; }
   border: 1px solid rgba(0,212,255,0.15);
   padding: 0.3rem 0.8rem;
   border-radius: 100px;
-  white-space: nowrap;
+  white-space: normal;
+  word-break: break-word;
 }
 .tl-points { list-style: none; padding: 0; margin-bottom: 1rem; }
 .tl-points li {
@@ -839,6 +840,8 @@ body:hover .cursor-follower { opacity: 1; }
 /* ============ RESPONSIVE ============ */
 @media (max-width: 1024px) {
   .hero { flex-direction: column; text-align: center; padding: 8rem 2rem 5rem; }
+  .hero { text-align: center; align-items: center; }
+  .hero-desc { text-align: center; margin: 0 auto; }
   .hero-content { max-width: 100%; }
   .hero-btns { justify-content: center; }
   .hero-socials { justify-content: center; }
@@ -852,12 +855,14 @@ body:hover .cursor-follower { opacity: 1; }
 
 @media (max-width: 768px) {
   #navbar { padding: 1rem 1.5rem; }
+  .tl-header { flex-direction: column; gap: 0.5rem; }
+  .hero-content { display: flex; flex-direction: column; align-items: center; }
   .nav-links, .nav-cta { display: none; }
   .hamburger { display: flex; }
   .section-pad { padding: 5rem 0; }
   .container { padding: 0 1.5rem; }
   .photo-placeholder { width: 220px; height: 220px; }
-  .badge1, .badge2, .badge3, .badge4, .badge5, .badge6, { display: none; }
+  .badge1, .badge2, .badge3, .badge4, .badge5, .badge6 { display: none; }
   .footer-inner { flex-direction: column; text-align: center; }
 }
 
