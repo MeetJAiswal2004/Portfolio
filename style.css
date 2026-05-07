@@ -300,7 +300,7 @@ body:hover .cursor-follower { opacity: 1; }
 }
 .btn-ghost:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-3px); }
 
-.hero-socials { display: flex; gap: 1rem; }
+.hero-socials { display: flex; gap: 1rem; margin-left: 2.5rem; }
 .social-link {
   width: 42px; height: 42px;
   border: 1px solid var(--card-border);
